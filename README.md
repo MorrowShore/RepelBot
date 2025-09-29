@@ -9,21 +9,23 @@ License: AGPLv3
 
 A high-performance Discord moderation bot designed for efficient message management and user moderation with auto-repel capabilities.
 
+Repel command can be used to deal with cross-channel spam, and can be safely given to select non-moderators. 
+
 ## Features
 
-### 🛡️ Manual Moderation
+### Manual Moderation
 - **`/repel` command**: Timeout users and delete their recent messages
 - Configurable message count (default: 100 messages)
 - Configurable timeout duration (default: 120 minutes)
 - Efficient parallel message deletion
 
-### 🤖 Auto-Repel System
+### Auto-Repel System
 - **Automatic spam detection**: Detects users spamming across multiple channels
 - **Smart threshold**: Triggers when user posts in 3+ channels within 30 seconds
 - **Automatic actions**: 120-minute timeout + deletion of 50 recent messages
 - **Self-cleaning**: Automatically removes old activity data
 
-### ⚡ Performance Optimizations
+### Performance Optimizations
 - **Message caching**: 500 messages per channel cache for rapid access
 - **Rate limit protection**: Batched operations with strategic delays
 - **Parallel processing**: Concurrent channel searches and message deletions
@@ -85,17 +87,18 @@ The bot automatically detects and acts on:
 
 ## File Structure
 ```
-webdevbot/
-├── bot4.py              # Main bot implementation
-├── requirements.txt     # Python dependencies
-├── .env                # Environment variables
-└── README.md           # This file
+RepelBot/
+├── repel.py               # Main bot implementation
+├── requirements.txt       # Python dependencies
+├── .env                   # Environment variables
+└── README.md              # This file
 ```
 
 ## Support
 
-For issues or feature requests, please open an issue on the GitHub repository.
+For issues or feature requests, please contact us on Discord: https://discord.gg/2sbnwze753
 
 ## License
 
-MIT License - feel free to modify and distribute.
+AGPLv3
+https://www.gnu.org/licenses/agpl-3.0.en.html
