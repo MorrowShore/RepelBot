@@ -1,0 +1,7 @@
+# RepelBot - Discord Moderation Bot
+# Created by Morrow Shore
+# https://morrowshore.com
+# License: AGPLv3
+
+discord.py>=2.3.0
+python-dotenv>=1.0.0
