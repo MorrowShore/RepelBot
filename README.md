@@ -36,7 +36,7 @@ Repel command can be used to deal with cross-channel spam, and can be safely giv
 1. **Clone the repository**
    ```bash
    git clone https://github.com/MorrowShore/RepelBot/tree/main
-   cd webdevbot
+   cd RepelBot
    ```
 
 2. **Install dependencies**
@@ -102,4 +102,5 @@ For issues or feature requests, please contact us on Discord: https://discord.gg
 
 AGPLv3
 https://www.gnu.org/licenses/agpl-3.0.en.html
+
 
